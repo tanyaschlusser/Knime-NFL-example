@@ -11,6 +11,20 @@ You may prefer downloading the zipfile containing the Knime workflow
 [NFL.knwf](https://tanyaschlusser.github.io/posts/whats-so-great-about-knime/NFL.knwf)
 instead.
 
+## Opinion
+
+The value of revision control is lost in this approach, because all
+of the Python code is zipped up inside of their respective nodes
+and you can't easily diff.
+
+There is actually useful revision control in Knime Server since
+[version 3.8 (announcement video)](https://www.youtube.com/watch?v=XewYe39heAE)
+(currently 4.7.3) so enterprise users can access this feature without
+lame jumping-jacks and should not use a Git repo, in my opinion.
+This is just for example in case you really want it.
+The useful part, the `.gitignore` file, was first written down
+in this
+[forum post](https://forum.knime.com/t/using-git-or-another-revision-control-system-for-knime-workflows/7246/5).
 
 ## Usage
 
@@ -62,18 +76,3 @@ and in the window that pops up
 Then open the file. Woo!
 See [my blog post](https://tanyaschlusser.github.io/posts/whats-so-great-about-knime/)
 for more details.
-
-## Opinion
-
-The value of revision control is lost in this approach, because all
-of the Python code is zipped up inside of their respective nodes
-and you can't easily diff.
-
-There is actually useful revision control in Knime Server since
-[version 3.8 (announcement video)](https://www.youtube.com/watch?v=XewYe39heAE)
-(currently 4.7.3) so enterprise users can access this feature without
-lame jumping-jacks and should not use a Git repo, in my opinion.
-This is just for example in case you really want it.
-The useful part, the `.gitignore` file, was first written down
-in this
-[forum post](https://forum.knime.com/t/using-git-or-another-revision-control-system-for-knime-workflows/7246/5).
