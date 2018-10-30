@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="from collections import namedtuple%%00010from pandas import DataFrame%%00010%%00010%%00010def revert_to_mean(alpha0, beta0, n_obs=4, keep=0.8):%%00010    p = alpha0 / (alpha0 + beta0)%%00010    alpha = 1 + n_obs * (keep * p + (1 - keep) * .5)%%00010    beta = 1 + n_obs * (keep * (1 - p) + (1 - keep) * .5)%%00010    return alpha, beta%%00010    %%00010def season(date_string):%%00010    print(date_string)%%00010    if date_string[5:7] in ('01', '02'):%%00010        return int(date_string[:4]) - 1%%00010    else:%%00010        return int(date_string[:4])%%00010%%00010%%00010current_season = {}%%00010ab_lookup = {%%00010    row.team:(row.alpha, row.beta) for row in input_table_2.itertuples()%%00010}%%00010%%00010%%00010Row = namedtuple('Row', ('date', 'team', 'alpha', 'beta'))%%00010rows = []%%00010# date, team, won%%00010for row in input_table_1.itertuples():%%00010    print(row)%%00010    print(row.date)%%00010    if row.team in ab_lookup:%%00010        alpha0, beta0 = ab_lookup[row.team]%%00010    else:%%00010        alpha0, beta0 = 3, 3%%00010    row_season = season(row.date)%%00010    if row.team in current_season:%%00010        if current_season[row.team] != row_season:%%00010            alpha0, beta0 = revert_to_mean(alpha0, beta0)%%00010            current_season[row.team] = row_season%%00010    else:%%00010        current_season[row.team] = row_season%%00010%%00010    alpha = alpha0 + row.won%%00010    beta = beta0 + 1 - row.won%%00010    ab_lookup[row.team] = alpha, beta%%00010    rows.append(Row(row.date, row.team, alpha, beta))%%00010    %%00010output_table = DataFrame(rows)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="games to%%00010alphabeta"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="668"/>
+<entry key="y-coordinate" type="xint" value="389"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="24"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807051517"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807061638"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 32228, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="b3c9cb82-ac99-4654-9b22-eb5547b69561"/>
+</config>
+</config>

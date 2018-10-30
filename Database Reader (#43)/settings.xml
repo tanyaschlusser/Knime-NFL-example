@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="statement" type="xstring" value="WITH byteam_data AS (%%00010 SELECT%%00010  date,%%00010  team1 AS team,%%00010  result1 AS won%%00010 FROM games%%00010 UNION%%00010 SELECT%%00010  date,%%00010  team2 AS team,%%00010  1 - result1 AS won%%00010 FROM games%%00010)%%00010SELECT%%00010 byteam_data.date AS date,%%00010 byteam_data.team AS team,%%00010 won%%00010FROM byteam_data%%00010LEFT JOIN alphabeta ON%%00010 byteam_data.date = alphabeta.date%%00010 AND%%00010 byteam_data.team = alphabeta.team%%00010WHERE alphabeta.date IS NULL%%00010ORDER BY date, team"/>
+<entry key="execute_without_configure" type="xboolean" value="true"/>
+<entry key="driver" type="xstring" value="org.sqlite.JDBC"/>
+<entry key="database" type="xstring" value="jdbc:sqlite://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" value=""/>
+<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="3.6.0"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="rows not yet%%00010in alphabeta"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="548"/>
+<entry key="y-coordinate" type="xint" value="349"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="24"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBReaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Reader"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Database Reader"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 32228, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8f88353b-1763-4d98-b8ef-6f451b2b7821"/>
+</config>
+</config>

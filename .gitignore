@@ -1,0 +1,26 @@
+## From: https://forum.knime.com/t/using-git-or-another-revision-control-system-for-knime-workflows/7246/5
+## (note: there is built-in versioning in Knime Server since version 3.8)
+#
+## KNIME files
+.knimeLock
+.project
+.savedWithData
+workflowset.meta
+
+## KNIME directories containing node data
+internal/
+port_*/
+.metadata/
+internalTables/
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+
+# My SQLite Database #
+*.db

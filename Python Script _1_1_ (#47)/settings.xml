@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import calendar%%00010import datetime%%00010import math%%00010import re%%00010import requests%%00010%%00010from collections import namedtuple%%00010from lxml import html%%00010from pandas import DataFrame%%00010%%00010%%00010def season(date_value):%%00010    year = date_value.year%%00010    return year if date_value.month &gt; 8 else year - 1%%00010%%00010%%00010most_recent = datetime.datetime.strptime(%%00010    flow_variables['max_date'], '%Y-%m-%d'%%00010).date()%%00010today = datetime.date.today()%%00010%%00010labor_day_day = next(%%00010    # Monday is 0 in `calendar`%%00010    dd for dd in range(1, 8) if calendar.weekday(season(today), 9, dd) == 0%%00010)%%00010labor_day = datetime.date(season(today), 9, labor_day_day)%%00010this_week = math.ceil((today - labor_day).days / 7)%%00010%%00010if season(most_recent) &lt; season(today):%%00010    start_week = 1%%00010else:%%00010    start_week = 1 + math.ceil((most_recent - labor_day).days / 7)%%00010%%00010%%00010team_abbrs = {row.Team:row.Abbr for row in input_table.itertuples()}%%00010%%00010Row =  namedtuple('Row', ('date', 'season', 'team1', 'team2', 'score1', 'score2', 'result1'))%%00010template = 'https://www.cbssports.com/nfl/scoreboard/all/2018/{season}/{week}/'%%00010rows = []%%00010%%00010for week in range(start_week, this_week):%%00010    part_of_season = &quot;regular&quot; if week &lt;= 17 else &quot;postseason&quot;%%00010    playoff = 1 if season == &quot;postseason&quot; else 0%%00010    url = template.format(season=part_of_season, week=week)%%00010    response = requests.get(url)%%00010    root = html.fromstring(response.text)%%00010    games = root.xpath('//div[contains(@id, &quot;game&quot;)]')%%00010    for game in games:%%00010        numbers = re.findall('\d+', game.xpath('.//div[contains(@class, &quot;bottom-bar&quot;)]//a/@href')[0])[0]%%00010        Y, m, d = numbers[:4], numbers[4:6], numbers[6:]%%00010        date = &quot;{}-{}-{}&quot;.format(Y, m, d)%%00010        current_season = season(datetime.date(int(Y), int(m), int(d)))%%00010        home_team, away_team = [str(s) for s in game.xpath('.//tr//a[@class=&quot;team&quot;]/text()')]%%00010        home = team_abbrs[home_team]%%00010        away = team_abbrs[away_team]%%00010        score1, score2 = [int(i) for i in game.xpath('.//tr//td[@class=&quot;total-score&quot;]/text()')]%%00010        rows.append(Row(date, current_season, home, away, score1, score2, 1 if score1 &gt; score2 else 0.5 if score1 == score2 else 0)) %%00010%%00010output_table = DataFrame(rows).assign(neutral=0, playoff=playoff)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="New games%%00010(cbs.com)"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="288"/>
+<entry key="y-coordinate" type="xint" value="369"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="24"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script.Python2ScriptNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807051517"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807061638"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 107, Cols: 9"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="2ced6291-60f9-4a98-90de-d27f8bcad6b5"/>
+</config>
+</config>

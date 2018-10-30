@@ -1,0 +1,257 @@
+wk,date,weekday,Home Team Fullname,Away Team Fullname,home_team,away_team
+1,2018-09-06,Thu,Philadelphia Eagles,Atlanta Falcons,PHI,ATL
+1,2018-09-09,Sun,Cleveland Browns,Pittsburgh Steelers,CLE,PIT
+1,2018-09-09,Sun,Indianapolis Colts,Cincinnati Bengals,IND,CIN
+1,2018-09-09,Sun,Miami Dolphins,Tennessee Titans,MIA,TEN
+1,2018-09-09,Sun,Minnesota Vikings,San Francisco 49ers,MIN,SF
+1,2018-09-09,Sun,New Orleans Saints,Tampa Bay Buccaneers,NO,TB
+1,2018-09-09,Sun,New England Patriots,Houston Texans,NE,HOU
+1,2018-09-09,Sun,New York Giants,Jacksonville Jaguars,NYG,JAX
+1,2018-09-09,Sun,Baltimore Ravens,Buffalo Bills,BAL,BUF
+1,2018-09-09,Sun,Los Angeles Chargers,Kansas City Chiefs,LAC,KC
+1,2018-09-09,Sun,Carolina Panthers,Dallas Cowboys,CAR,DAL
+1,2018-09-09,Sun,Arizona Cardinals,Washington Redskins,ARI,WSH
+1,2018-09-09,Sun,Denver Broncos,Seattle Seahawks,DEN,SEA
+1,2018-09-09,Sun,Green Bay Packers,Chicago Bears,GB,CHI
+1,2018-09-10,Mon,Detroit Lions,New York Jets,DET,NYJ
+1,2018-09-10,Mon,Oakland Raiders,Los Angeles Rams,OAK,LAR
+2,2018-09-13,Thu,Cincinnati Bengals,Baltimore Ravens,CIN,BAL
+2,2018-09-16,Sun,Atlanta Falcons,Carolina Panthers,ATL,CAR
+2,2018-09-16,Sun,Buffalo Bills,Los Angeles Chargers,BUF,LAC
+2,2018-09-16,Sun,Green Bay Packers,Minnesota Vikings,GB,MIN
+2,2018-09-16,Sun,New Orleans Saints,Cleveland Browns,NO,CLE
+2,2018-09-16,Sun,New York Jets,Miami Dolphins,NYJ,MIA
+2,2018-09-16,Sun,Tennessee Titans,Houston Texans,TEN,HOU
+2,2018-09-16,Sun,Pittsburgh Steelers,Kansas City Chiefs,PIT,KC
+2,2018-09-16,Sun,Tampa Bay Buccaneers,Philadelphia Eagles,TB,PHI
+2,2018-09-16,Sun,Washington Redskins,Indianapolis Colts,WSH,IND
+2,2018-09-16,Sun,Los Angeles Rams,Arizona Cardinals,LAR,ARI
+2,2018-09-16,Sun,San Francisco 49ers,Detroit Lions,SF,DET
+2,2018-09-16,Sun,Denver Broncos,Oakland Raiders,DEN,OAK
+2,2018-09-16,Sun,Jacksonville Jaguars,New England Patriots,JAX,NE
+2,2018-09-16,Sun,Dallas Cowboys,New York Giants,DAL,NYG
+2,2018-09-17,Mon,Chicago Bears,Seattle Seahawks,CHI,SEA
+3,2018-09-20,Thu,Cleveland Browns,New York Jets,CLE,NYJ
+3,2018-09-23,Sun,Atlanta Falcons,New Orleans Saints,ATL,NO
+3,2018-09-23,Sun,Carolina Panthers,Cincinnati Bengals,CAR,CIN
+3,2018-09-23,Sun,Houston Texans,New York Giants,HOU,NYG
+3,2018-09-23,Sun,Jacksonville Jaguars,Tennessee Titans,JAX,TEN
+3,2018-09-23,Sun,Kansas City Chiefs,San Francisco 49ers,KC,SF
+3,2018-09-23,Sun,Miami Dolphins,Oakland Raiders,MIA,OAK
+3,2018-09-23,Sun,Minnesota Vikings,Buffalo Bills,MIN,BUF
+3,2018-09-23,Sun,Philadelphia Eagles,Indianapolis Colts,PHI,IND
+3,2018-09-23,Sun,Baltimore Ravens,Denver Broncos,BAL,DEN
+3,2018-09-23,Sun,Washington Redskins,Green Bay Packers,WSH,GB
+3,2018-09-23,Sun,Los Angeles Rams,Los Angeles Chargers,LAR,LAC
+3,2018-09-23,Sun,Arizona Cardinals,Chicago Bears,ARI,CHI
+3,2018-09-23,Sun,Seattle Seahawks,Dallas Cowboys,SEA,DAL
+3,2018-09-23,Sun,Detroit Lions,New England Patriots,DET,NE
+3,2018-09-24,Mon,Tampa Bay Buccaneers,Pittsburgh Steelers,TB,PIT
+4,2018-09-27,Thu,Los Angeles Rams,Minnesota Vikings,LAR,MIN
+4,2018-09-30,Sun,Atlanta Falcons,Cincinnati Bengals,ATL,CIN
+4,2018-09-30,Sun,Chicago Bears,Tampa Bay Buccaneers,CHI,TB
+4,2018-09-30,Sun,Indianapolis Colts,Houston Texans,IND,HOU
+4,2018-09-30,Sun,Dallas Cowboys,Detroit Lions,DAL,DET
+4,2018-09-30,Sun,Green Bay Packers,Buffalo Bills,GB,BUF
+4,2018-09-30,Sun,Jacksonville Jaguars,New York Jets,JAX,NYJ
+4,2018-09-30,Sun,New England Patriots,Miami Dolphins,NE,MIA
+4,2018-09-30,Sun,Tennessee Titans,Philadelphia Eagles,TEN,PHI
+4,2018-09-30,Sun,Arizona Cardinals,Seattle Seahawks,ARI,SEA
+4,2018-09-30,Sun,Oakland Raiders,Cleveland Browns,OAK,CLE
+4,2018-09-30,Sun,New York Giants,New Orleans Saints,NYG,NO
+4,2018-09-30,Sun,Los Angeles Chargers,San Francisco 49ers,LAC,SF
+4,2018-09-30,Sun,Pittsburgh Steelers,Baltimore Ravens,PIT,BAL
+4,2018-10-01,Mon,Denver Broncos,Kansas City Chiefs,DEN,KC
+5,2018-10-04,Thu,New England Patriots,Indianapolis Colts,NE,IND
+5,2018-10-07,Sun,Buffalo Bills,Tennessee Titans,BUF,TEN
+5,2018-10-07,Sun,Carolina Panthers,New York Giants,CAR,NYG
+5,2018-10-07,Sun,Cincinnati Bengals,Miami Dolphins,CIN,MIA
+5,2018-10-07,Sun,Cleveland Browns,Baltimore Ravens,CLE,BAL
+5,2018-10-07,Sun,Detroit Lions,Green Bay Packers,DET,GB
+5,2018-10-07,Sun,Kansas City Chiefs,Jacksonville Jaguars,KC,JAX
+5,2018-10-07,Sun,New York Jets,Denver Broncos,NYJ,DEN
+5,2018-10-07,Sun,Pittsburgh Steelers,Atlanta Falcons,PIT,ATL
+5,2018-10-07,Sun,Los Angeles Chargers,Oakland Raiders,LAC,OAK
+5,2018-10-07,Sun,Philadelphia Eagles,Minnesota Vikings,PHI,MIN
+5,2018-10-07,Sun,Seattle Seahawks,Los Angeles Rams,SEA,LAR
+5,2018-10-07,Sun,San Francisco 49ers,Arizona Cardinals,SF,ARI
+5,2018-10-07,Sun,Houston Texans,Dallas Cowboys,HOU,DAL
+5,2018-10-08,Mon,New Orleans Saints,Washington Redskins,NO,WSH
+6,2018-10-11,Thu,New York Giants,Philadelphia Eagles,NYG,PHI
+6,2018-10-14,Sun,Atlanta Falcons,Tampa Bay Buccaneers,ATL,TB
+6,2018-10-14,Sun,Cincinnati Bengals,Pittsburgh Steelers,CIN,PIT
+6,2018-10-14,Sun,Cleveland Browns,Los Angeles Chargers,CLE,LAC
+6,2018-10-14,Sun,Houston Texans,Buffalo Bills,HOU,BUF
+6,2018-10-14,Sun,Miami Dolphins,Chicago Bears,MIA,CHI
+6,2018-10-14,Sun,Minnesota Vikings,Arizona Cardinals,MIN,ARI
+6,2018-10-14,Sun,New York Jets,Indianapolis Colts,NYJ,IND
+6,2018-10-14,Sun,Oakland Raiders,Seattle Seahawks,OAK,SEA
+6,2018-10-14,Sun,Washington Redskins,Carolina Panthers,WSH,CAR
+6,2018-10-14,Sun,Denver Broncos,Los Angeles Rams,DEN,LAR
+6,2018-10-14,Sun,Dallas Cowboys,Jacksonville Jaguars,DAL,JAX
+6,2018-10-14,Sun,Tennessee Titans,Baltimore Ravens,TEN,BAL
+6,2018-10-14,Sun,New England Patriots,Kansas City Chiefs,NE,KC
+6,2018-10-15,Mon,Green Bay Packers,San Francisco 49ers,GB,SF
+7,2018-10-18,Thu,Arizona Cardinals,Denver Broncos,ARI,DEN
+7,2018-10-21,Sun,Los Angeles Chargers,Tennessee Titans,LAC,TEN
+7,2018-10-21,Sun,Chicago Bears,New England Patriots,CHI,NE
+7,2018-10-21,Sun,Indianapolis Colts,Buffalo Bills,IND,BUF
+7,2018-10-21,Sun,Jacksonville Jaguars,Houston Texans,JAX,HOU
+7,2018-10-21,Sun,Kansas City Chiefs,Cincinnati Bengals,KC,CIN
+7,2018-10-21,Sun,Miami Dolphins,Detroit Lions,MIA,DET
+7,2018-10-21,Sun,New York Jets,Minnesota Vikings,NYJ,MIN
+7,2018-10-21,Sun,Philadelphia Eagles,Carolina Panthers,PHI,CAR
+7,2018-10-21,Sun,Tampa Bay Buccaneers,Cleveland Browns,TB,CLE
+7,2018-10-21,Sun,Baltimore Ravens,New Orleans Saints,BAL,NO
+7,2018-10-21,Sun,Washington Redskins,Dallas Cowboys,WSH,DAL
+7,2018-10-21,Sun,San Francisco 49ers,Los Angeles Rams,SF,LAR
+7,2018-10-22,Mon,Atlanta Falcons,New York Giants,ATL,NYG
+8,2018-10-25,Thu,Houston Texans,Miami Dolphins,HOU,MIA
+8,2018-10-28,Sun,Jacksonville Jaguars,Philadelphia Eagles,JAX,PHI
+8,2018-10-28,Sun,Carolina Panthers,Baltimore Ravens,CAR,BAL
+8,2018-10-28,Sun,Chicago Bears,New York Jets,CHI,NYJ
+8,2018-10-28,Sun,Cincinnati Bengals,Tampa Bay Buccaneers,CIN,TB
+8,2018-10-28,Sun,Detroit Lions,Seattle Seahawks,DET,SEA
+8,2018-10-28,Sun,Kansas City Chiefs,Denver Broncos,KC,DEN
+8,2018-10-28,Sun,New York Giants,Washington Redskins,NYG,WSH
+8,2018-10-28,Sun,Pittsburgh Steelers,Cleveland Browns,PIT,CLE
+8,2018-10-28,Sun,Oakland Raiders,Indianapolis Colts,OAK,IND
+8,2018-10-28,Sun,Arizona Cardinals,San Francisco 49ers,ARI,SF
+8,2018-10-28,Sun,Los Angeles Rams,Green Bay Packers,LAR,GB
+8,2018-10-28,Sun,Minnesota Vikings,New Orleans Saints,MIN,NO
+8,2018-10-29,Mon,Buffalo Bills,New England Patriots,BUF,NE
+9,2018-11-01,Thu,San Francisco 49ers,Oakland Raiders,SF,OAK
+9,2018-11-04,Sun,Buffalo Bills,Chicago Bears,BUF,CHI
+9,2018-11-04,Sun,Carolina Panthers,Tampa Bay Buccaneers,CAR,TB
+9,2018-11-04,Sun,Cleveland Browns,Kansas City Chiefs,CLE,KC
+9,2018-11-04,Sun,Miami Dolphins,New York Jets,MIA,NYJ
+9,2018-11-04,Sun,Minnesota Vikings,Detroit Lions,MIN,DET
+9,2018-11-04,Sun,Baltimore Ravens,Pittsburgh Steelers,BAL,PIT
+9,2018-11-04,Sun,Washington Redskins,Atlanta Falcons,WSH,ATL
+9,2018-11-04,Sun,Denver Broncos,Houston Texans,DEN,HOU
+9,2018-11-04,Sun,Seattle Seahawks,Los Angeles Chargers,SEA,LAC
+9,2018-11-04,Sun,New Orleans Saints,Los Angeles Rams,NO,LAR
+9,2018-11-04,Sun,New England Patriots,Green Bay Packers,NE,GB
+9,2018-11-05,Mon,Dallas Cowboys,Tennessee Titans,DAL,TEN
+10,2018-11-08,Thu,Pittsburgh Steelers,Carolina Panthers,PIT,CAR
+10,2018-11-11,Sun,Chicago Bears,Detroit Lions,CHI,DET
+10,2018-11-11,Sun,Cincinnati Bengals,New Orleans Saints,CIN,NO
+10,2018-11-11,Sun,Cleveland Browns,Atlanta Falcons,CLE,ATL
+10,2018-11-11,Sun,Indianapolis Colts,Jacksonville Jaguars,IND,JAX
+10,2018-11-11,Sun,Green Bay Packers,Miami Dolphins,GB,MIA
+10,2018-11-11,Sun,Kansas City Chiefs,Arizona Cardinals,KC,ARI
+10,2018-11-11,Sun,New York Jets,Buffalo Bills,NYJ,BUF
+10,2018-11-11,Sun,Tennessee Titans,New England Patriots,TEN,NE
+10,2018-11-11,Sun,Tampa Bay Buccaneers,Washington Redskins,TB,WSH
+10,2018-11-11,Sun,Oakland Raiders,Los Angeles Chargers,OAK,LAC
+10,2018-11-11,Sun,Los Angeles Rams,Seattle Seahawks,LAR,SEA
+10,2018-11-11,Sun,Philadelphia Eagles,Dallas Cowboys,PHI,DAL
+10,2018-11-12,Mon,San Francisco 49ers,New York Giants,SF,NYG
+11,2018-11-15,Thu,Seattle Seahawks,Green Bay Packers,SEA,GB
+11,2018-11-18,Sun,Atlanta Falcons,Dallas Cowboys,ATL,DAL
+11,2018-11-18,Sun,Chicago Bears,Minnesota Vikings,CHI,MIN
+11,2018-11-18,Sun,Indianapolis Colts,Tennessee Titans,IND,TEN
+11,2018-11-18,Sun,Detroit Lions,Carolina Panthers,DET,CAR
+11,2018-11-18,Sun,New Orleans Saints,Philadelphia Eagles,NO,PHI
+11,2018-11-18,Sun,New York Giants,Tampa Bay Buccaneers,NYG,TB
+11,2018-11-18,Sun,Baltimore Ravens,Cincinnati Bengals,BAL,CIN
+11,2018-11-18,Sun,Washington Redskins,Houston Texans,WSH,HOU
+11,2018-11-18,Sun,Arizona Cardinals,Oakland Raiders,ARI,OAK
+11,2018-11-18,Sun,Los Angeles Chargers,Denver Broncos,LAC,DEN
+11,2018-11-18,Sun,Jacksonville Jaguars,Pittsburgh Steelers,JAX,PIT
+11,2018-11-19,Mon,Los Angeles Rams,Kansas City Chiefs,LAR,KC
+12,2018-11-22,Thu,Detroit Lions,Chicago Bears,DET,CHI
+12,2018-11-22,Thu,Dallas Cowboys,Washington Redskins,DAL,WSH
+12,2018-11-22,Thu,New Orleans Saints,Atlanta Falcons,NO,ATL
+12,2018-11-25,Sun,Buffalo Bills,Jacksonville Jaguars,BUF,JAX
+12,2018-11-25,Sun,Carolina Panthers,Seattle Seahawks,CAR,SEA
+12,2018-11-25,Sun,Cincinnati Bengals,Cleveland Browns,CIN,CLE
+12,2018-11-25,Sun,Indianapolis Colts,Miami Dolphins,IND,MIA
+12,2018-11-25,Sun,New York Jets,New England Patriots,NYJ,NE
+12,2018-11-25,Sun,Philadelphia Eagles,New York Giants,PHI,NYG
+12,2018-11-25,Sun,Baltimore Ravens,Oakland Raiders,BAL,OAK
+12,2018-11-25,Sun,Tampa Bay Buccaneers,San Francisco 49ers,TB,SF
+12,2018-11-25,Sun,Los Angeles Chargers,Arizona Cardinals,LAC,ARI
+12,2018-11-25,Sun,Denver Broncos,Pittsburgh Steelers,DEN,PIT
+12,2018-11-25,Sun,Minnesota Vikings,Green Bay Packers,MIN,GB
+12,2018-11-26,Mon,Houston Texans,Tennessee Titans,HOU,TEN
+13,2018-11-29,Thu,Dallas Cowboys,New Orleans Saints,DAL,NO
+13,2018-12-02,Sun,Atlanta Falcons,Baltimore Ravens,ATL,BAL
+13,2018-12-02,Sun,Cincinnati Bengals,Denver Broncos,CIN,DEN
+13,2018-12-02,Sun,Detroit Lions,Los Angeles Rams,DET,LAR
+13,2018-12-02,Sun,Green Bay Packers,Arizona Cardinals,GB,ARI
+13,2018-12-02,Sun,Houston Texans,Cleveland Browns,HOU,CLE
+13,2018-12-02,Sun,Jacksonville Jaguars,Indianapolis Colts,JAX,IND
+13,2018-12-02,Sun,Miami Dolphins,Buffalo Bills,MIA,BUF
+13,2018-12-02,Sun,New York Giants,Chicago Bears,NYG,CHI
+13,2018-12-02,Sun,Pittsburgh Steelers,Los Angeles Chargers,PIT,LAC
+13,2018-12-02,Sun,Tampa Bay Buccaneers,Carolina Panthers,TB,CAR
+13,2018-12-02,Sun,Tennessee Titans,New York Jets,TEN,NYJ
+13,2018-12-02,Sun,Oakland Raiders,Kansas City Chiefs,OAK,KC
+13,2018-12-02,Sun,New England Patriots,Minnesota Vikings,NE,MIN
+13,2018-12-02,Sun,Seattle Seahawks,San Francisco 49ers,SEA,SF
+13,2018-12-03,Mon,Philadelphia Eagles,Washington Redskins,PHI,WSH
+14,2018-12-06,Thu,Tennessee Titans,Jacksonville Jaguars,TEN,JAX
+14,2018-12-09,Sun,Buffalo Bills,New York Jets,BUF,NYJ
+14,2018-12-09,Sun,Chicago Bears,Los Angeles Rams,CHI,LAR
+14,2018-12-09,Sun,Cleveland Browns,Carolina Panthers,CLE,CAR
+14,2018-12-09,Sun,Green Bay Packers,Atlanta Falcons,GB,ATL
+14,2018-12-09,Sun,Houston Texans,Indianapolis Colts,HOU,IND
+14,2018-12-09,Sun,Kansas City Chiefs,Baltimore Ravens,KC,BAL
+14,2018-12-09,Sun,Miami Dolphins,New England Patriots,MIA,NE
+14,2018-12-09,Sun,Tampa Bay Buccaneers,New Orleans Saints,TB,NO
+14,2018-12-09,Sun,Washington Redskins,New York Giants,WSH,NYG
+14,2018-12-09,Sun,Los Angeles Chargers,Cincinnati Bengals,LAC,CIN
+14,2018-12-09,Sun,San Francisco 49ers,Denver Broncos,SF,DEN
+14,2018-12-09,Sun,Arizona Cardinals,Detroit Lions,ARI,DET
+14,2018-12-09,Sun,Dallas Cowboys,Philadelphia Eagles,DAL,PHI
+14,2018-12-09,Sun,Oakland Raiders,Pittsburgh Steelers,OAK,PIT
+14,2018-12-10,Mon,Seattle Seahawks,Minnesota Vikings,SEA,MIN
+15,2018-12-13,Thu,Kansas City Chiefs,Los Angeles Chargers,KC,LAC
+15,2018-12-15,Sat,Denver Broncos,Cleveland Browns,DEN,CLE
+15,2018-12-15,Sat,New York Jets,Houston Texans,NYJ,HOU
+15,2018-12-16,Sun,Atlanta Falcons,Arizona Cardinals,ATL,ARI
+15,2018-12-16,Sun,Buffalo Bills,Detroit Lions,BUF,DET
+15,2018-12-16,Sun,Chicago Bears,Green Bay Packers,CHI,GB
+15,2018-12-16,Sun,Cincinnati Bengals,Oakland Raiders,CIN,OAK
+15,2018-12-16,Sun,Indianapolis Colts,Dallas Cowboys,IND,DAL
+15,2018-12-16,Sun,Jacksonville Jaguars,Washington Redskins,JAX,WSH
+15,2018-12-16,Sun,Minnesota Vikings,Miami Dolphins,MIN,MIA
+15,2018-12-16,Sun,New York Giants,Tennessee Titans,NYG,TEN
+15,2018-12-16,Sun,Baltimore Ravens,Tampa Bay Buccaneers,BAL,TB
+15,2018-12-16,Sun,San Francisco 49ers,Seattle Seahawks,SF,SEA
+15,2018-12-16,Sun,Pittsburgh Steelers,New England Patriots,PIT,NE
+15,2018-12-16,Sun,Los Angeles Rams,Philadelphia Eagles,LAR,PHI
+15,2018-12-17,Mon,Carolina Panthers,New Orleans Saints,CAR,NO
+16,2018-12-23,Sun,Carolina Panthers,Atlanta Falcons,CAR,ATL
+16,2018-12-23,Sun,Cleveland Browns,Cincinnati Bengals,CLE,CIN
+16,2018-12-23,Sun,Indianapolis Colts,New York Giants,IND,NYG
+16,2018-12-23,Sun,Dallas Cowboys,Tampa Bay Buccaneers,DAL,TB
+16,2018-12-23,Sun,Detroit Lions,Minnesota Vikings,DET,MIN
+16,2018-12-23,Sun,Miami Dolphins,Jacksonville Jaguars,MIA,JAX
+16,2018-12-23,Sun,New England Patriots,Buffalo Bills,NE,BUF
+16,2018-12-23,Sun,New York Jets,Green Bay Packers,NYJ,GB
+16,2018-12-23,Sun,Tennessee Titans,Washington Redskins,TEN,WSH
+16,2018-12-23,Sun,Philadelphia Eagles,Houston Texans,PHI,HOU
+16,2018-12-23,Sun,Arizona Cardinals,Los Angeles Rams,ARI,LAR
+16,2018-12-23,Sun,Los Angeles Chargers,Baltimore Ravens,LAC,BAL
+16,2018-12-23,Sun,San Francisco 49ers,Chicago Bears,SF,CHI
+16,2018-12-23,Sun,New Orleans Saints,Pittsburgh Steelers,NO,PIT
+16,2018-12-23,Sun,Seattle Seahawks,Kansas City Chiefs,SEA,KC
+16,2018-12-24,Mon,Oakland Raiders,Denver Broncos,OAK,DEN
+17,2018-12-30,Sun,Buffalo Bills,Miami Dolphins,BUF,MIA
+17,2018-12-30,Sun,Green Bay Packers,Detroit Lions,GB,DET
+17,2018-12-30,Sun,Houston Texans,Jacksonville Jaguars,HOU,JAX
+17,2018-12-30,Sun,Kansas City Chiefs,Oakland Raiders,KC,OAK
+17,2018-12-30,Sun,Minnesota Vikings,Chicago Bears,MIN,CHI
+17,2018-12-30,Sun,New Orleans Saints,Carolina Panthers,NO,CAR
+17,2018-12-30,Sun,New England Patriots,New York Jets,NE,NYJ
+17,2018-12-30,Sun,New York Giants,Dallas Cowboys,NYG,DAL
+17,2018-12-30,Sun,Tennessee Titans,Indianapolis Colts,TEN,IND
+17,2018-12-30,Sun,Pittsburgh Steelers,Cincinnati Bengals,PIT,CIN
+17,2018-12-30,Sun,Baltimore Ravens,Cleveland Browns,BAL,CLE
+17,2018-12-30,Sun,Tampa Bay Buccaneers,Atlanta Falcons,TB,ATL
+17,2018-12-30,Sun,Washington Redskins,Philadelphia Eagles,WSH,PHI
+17,2018-12-30,Sun,Denver Broncos,Los Angeles Chargers,DEN,LAC
+17,2018-12-30,Sun,Los Angeles Rams,San Francisco 49ers,LAR,SF
+17,2018-12-30,Sun,Seattle Seahawks,Arizona Cardinals,SEA,ARI
